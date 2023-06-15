@@ -12,7 +12,7 @@ CPU: 6 cores, 2.6 GHz/core
 
 ## 2. Installation guide
 
-This code is written in Python (version 3.5) and executed in Jupyter Lab, both of which are easily installed using the Anaconda Python distribution (<https://www.anaconda.com/>). 
+This code is written in Python (version 3.8.8) and executed in Jupyter Lab, both of which are easily installed using the Anaconda Python distribution (<https://www.anaconda.com/>). 
 <br>
 ### Package dependencies
 The following packages are required to run this code:
