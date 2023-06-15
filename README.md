@@ -3,6 +3,8 @@ Code and demo data accompanying the manuscript *High Salinity Shelf Water produc
 
 Una Kim Miller, Christopher J. Zappa, Arnold L. Gordon, Seung Tae Yoon, Craig Stevens, Won Sang Lee
 
+License: Apache 2.0 License
+
 ## 1. System requirements
 
 This code runs easily on a laptop computer with the following specs:
@@ -12,7 +14,7 @@ CPU: 6 cores, 2.6 GHz/core
 
 ## 2. Installation guide
 
-This code is written in Python (version 3.8.8) and executed in Jupyter Lab, both of which are easily installed using the Anaconda Python distribution (<https://www.anaconda.com/>). 
+This code is written in Python (version 3.8.8) and executed in Jupyter Lab, both of which are easily installed using the Anaconda Python distribution (<https://www.anaconda.com/>). Anaconda setup typically takes less than 10 minutes.
 <br>
 ### Package dependencies
 The following packages are required to run this code:
@@ -20,7 +22,7 @@ The following packages are required to run this code:
 - xarray 
 - matplotlib 
 - pandas 
-- scipy.io 
+- scipy
 - gsw (Gibbs SeaWater)
 
 The specific versions of these packages used in the present code are contained in the TNB_demo_environment.yml file, which can be loaded in as:
@@ -29,4 +31,9 @@ The specific versions of these packages used in the present code are contained i
 
 ## 3. Demo
 
-## 4. Instructions for use
+`P_HSSW_from_mooring.ipynb` is a notebook showing an example calculation of HSSW production rate from moored salinity. <br>
+`P_HSSW_from_net_heat_fluxes.ipynb` is a notebook showing the calculation of HSSW production rates from net heat fluxes in TNB across 2012-2021. Generates Figure 5 of the manuscript. <br>
+
+### How to run the code
+- Open either `.ipynb` file in Jupyter Lab/Notebook. From the `Run` tab, select `Run All`. Runtime = ~5 seconds
+
